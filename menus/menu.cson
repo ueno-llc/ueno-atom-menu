@@ -1,0 +1,5 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tree-view.full-menu': [
+    {label: 'New Component', command: 'ueno-atom-menu:new-component'}
+  ]

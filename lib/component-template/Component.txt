@@ -1,0 +1,18 @@
+import React, { Component, PropTypes } from 'react';
+import s from './##COMPONENT_NAME##.scss';
+
+export default class ##COMPONENT_NAME## extends Component {
+
+  static propTypes = {
+    children: PropTypes.node,
+  }
+
+  render() {
+    const { children } = this.props;
+    return (
+      <div className={s.##COMPONENT_NAME_CAMEL##}>
+        {children}
+      </div>
+    );
+  }
+}
