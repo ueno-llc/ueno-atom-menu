@@ -36,8 +36,8 @@ class AddDialog extends Dialog
       'component-template/index.txt' ]
       .map((f) =>
         fs.readFileSync(path.join(__dirname, f), 'utf8')
-        .replace(/##COMPONENT_NAME##/g, componentName)
-        .replace(/##COMPONENT_NAME_CAMEL##/g, _.camelCase(componentNameCamel))
+        .replace(/##COMPONENT_NAME##/g, componentNameCap)
+        .replace(/##COMPONENT_NAME_CAMEL##/g, componentNameCamel)
     )
     return unless componentPath
 
