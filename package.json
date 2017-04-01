@@ -1,7 +1,7 @@
 {
   "name": "ueno-atom-menu",
   "main": "./lib/ueno-atom-menu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ueno Atom menu",
   "repository": "https://github.com/ueno/ueno-atom-menu",
   "license": "MIT",
