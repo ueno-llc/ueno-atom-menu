@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import s from './##COMPONENT_NAME##.scss';
+import s from './##COMPONENT_STYLE##';
 
 export default class ##COMPONENT_NAME## extends Component {
 

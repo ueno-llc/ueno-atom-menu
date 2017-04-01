@@ -1,0 +1,14 @@
+import React, { PropTypes } from 'react';
+import s from './##COMPONENT_STYLE##';
+
+const ##COMPONENT_NAME## = ({ children }) => (
+  <div className={s.##COMPONENT_NAME_CAMEL##}>
+    {children}
+  </div>
+);
+
+##COMPONENT_NAME##.propTypes = {
+  children: PropTypes.node,
+};
+
+export default ##COMPONENT_NAME##;
