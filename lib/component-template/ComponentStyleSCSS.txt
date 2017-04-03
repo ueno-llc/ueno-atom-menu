@@ -1,0 +1,7 @@
+@import '~styles/config';
+
+.##COMPONENT_NAME_CAMEL## {
+  &__container {
+    @include container;
+  }
+}
