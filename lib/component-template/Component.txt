@@ -11,7 +11,9 @@ export default class ##COMPONENT_NAME## extends Component {
     const { children } = this.props;
     return (
       <div className={s.##COMPONENT_NAME_CAMEL##}>
-        {children}
+        <div className={s.##COMPONENT_NAME_CAMEL##__container}>
+          {children}
+        </div>
       </div>
     );
   }

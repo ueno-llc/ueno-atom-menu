@@ -3,7 +3,9 @@ import s from './##COMPONENT_STYLE##';
 
 const ##COMPONENT_NAME## = ({ children }) => (
   <div className={s.##COMPONENT_NAME_CAMEL##}>
-    {children}
+    <div className={s.##COMPONENT_NAME_CAMEL##__container}>
+      {children}
+    </div>
   </div>
 );
 
