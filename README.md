@@ -6,3 +6,8 @@ It can be installed by doing the following:
 ```bash
 apm install ueno-llc/ueno-atom-menu
 ```
+
+Update to the latest version using the following command:
+```bash
+apm upgrade ueno-atom-menu
+```
