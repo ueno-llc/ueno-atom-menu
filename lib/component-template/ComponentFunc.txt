@@ -1,11 +1,19 @@
 import React, { PropTypes } from 'react';
+==ifstyles
 import s from './##COMPONENT_STYLE##';
+==endif
 
 const ##COMPONENT_NAME## = ({ children }) => (
+==ifstyles
   <div className={s.##COMPONENT_NAME_CAMEL##}>
     <div className={s.##COMPONENT_NAME_CAMEL##__container}>
       {children}
     </div>
+==endif
+==ifnostyles
+  <div>
+    {children}
+==endif
   </div>
 );
 

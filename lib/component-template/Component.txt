@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
+==ifstyles
 import s from './##COMPONENT_STYLE##';
+==endif
 
 export default class ##COMPONENT_NAME## extends Component {
 
@@ -10,10 +12,16 @@ export default class ##COMPONENT_NAME## extends Component {
   render() {
     const { children } = this.props;
     return (
+==ifstyles
       <div className={s.##COMPONENT_NAME_CAMEL##}>
         <div className={s.##COMPONENT_NAME_CAMEL##__container}>
           {children}
         </div>
+==endif
+==ifnostyles
+      <div>
+        {children}
+==endif
       </div>
     );
   }
