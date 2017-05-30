@@ -3,7 +3,7 @@
   "main": "./lib/ueno-atom-menu",
   "version": "0.0.5",
   "description": "Ueno Atom menu",
-  "repository": "https://github.com/ueno/ueno-atom-menu",
+  "repository": "https://github.com/ueno-llc/ueno-atom-menu",
   "license": "MIT",
   "engines": {
     "atom": ">=1.6.0"
