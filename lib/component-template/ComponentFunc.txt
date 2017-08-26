@@ -23,4 +23,8 @@ const ##COMPONENT_NAME## = ({ children }) => (
   children: PropTypes.node,
 };
 
+##COMPONENT_NAME##.defaultProps = {
+  children: undefined,
+}
+
 export default ##COMPONENT_NAME##;
