@@ -17,6 +17,7 @@ export default class ##COMPONENT_NAME## extends PureComponent {
 
   render() {
     const { children } = this.props;
+    
     return (
 ==ifstyles
       <div className={s.##COMPONENT_NAME_CAMEL##}>
